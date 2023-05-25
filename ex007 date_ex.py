@@ -27,4 +27,4 @@ horario1 = input("Digite o primeiro horário (hh:mm:ss): ")
 horario2 = input("Digite o segundo horário (hh:mm:ss): ")
 
 diferenca = subtrair_horarios(horario1, horario2)
-print("A diferença entre os horários é:", diferenca)
+print("A diferença entre os horários é: {}".format(diferenca))
